@@ -21,4 +21,5 @@ Se você ainda não tem esses programas instalados, baixe e instale.
 
 ## 3º Passo - Instale o módulo do 'JEST' no projeto
 - Para utilizar o [Framework de Testes `JEST`](https://jestjs.io/pt-BR/), abra o terminal - `Ctrl + '` - e execute o comando:  
+
         npm i --save-dev jest
