@@ -151,7 +151,7 @@ Esse teste deve falhar e você deve ver e identificar o erro:
 
 ![](/imgs/17-falha-expected-23.67-receveid-50.jpg)
 
-### 7º testando um valor real
+### 7º realizando o cálculo do IMC
 Altere o arquivo `imc.js` para ficar assim:
 
 ![](/imgs/18-bloco-code-7.jpg)
@@ -162,7 +162,7 @@ Esse teste deve falhar e você deve ver e identificar o erro:
 
 ![](/imgs/19-falha-expected-23.67-receveid-23.67125.jpg)
 
-### 8º testando um valor real
+### 8º fixando em 2 casas depois da vírgula
 Altere o arquivo `imc.js` para ficar assim:
 
 ![](/imgs/20-bloco-code-8.jpg)
@@ -173,7 +173,7 @@ Esse teste deve falhar e você deve ver e identificar o erro:
 
 ![](/imgs/21-falha-expected-23.67-receveid-string-23.67125.jpg)
 
-### 9º testando um valor real
+### 9º tranformando uma String em Número
 Altere o arquivo `imc.js` para ficar assim:
 
 ![](/imgs/22-bloco-code-9.jpg)
@@ -181,3 +181,5 @@ Altere o arquivo `imc.js` para ficar assim:
 Depois execute o teste no terminal (`ctrl + '`) - `npm test`
 
 Esse teste deve passar.
+
+![](/imgs/23-test-pass.jpg)
