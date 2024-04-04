@@ -8,6 +8,16 @@ Se você ainda não tem esses programas instalados, baixe e instale.
 >Eu estou usando os ícones da extensão [´VSCode Great Icons´](https://marketplace.visualstudio.com/items?itemName=emmanuelbeziat.vscode-great-icons)  
 Se você quiser os ícones iguais basta adicionar essa extensão no seu VSCode
 
+## TDD - Test Driven Development ou Desenvolvimento Orientado a Testes
+A técnica/prática do TDD foi introduzida pela metodologia ágil XP - eXtreme Programming  
+Essa técnica prega que os testes devem ser escritos antes da codificação propriamente dita
+
+Nesse tutorial vou ensina como criar um novo projeto do zero e realizar o desenvolvimento de um programa (IMC) com a técnica do TDD, escrevendo os testes antes de criar o código do programa
+
+Na técnica do TDD devemos primeiro escrever um teste que falha, ver o teste falhar, escrever o mínimo de código possível para fazer o teste passar e, por fim, refatorar o código da melhor forma que conseguirmos para solucionar o problema.
+
+Vamos realizar a prática do TDD para o desenvolvimento de um programa que calcula o Índice de Massa Corporal (IMC) de uma pessoa
+
 ## 1º Passo - Crie uma nova pasta para o projeto.
 - Crie uma nova pasta para o projeto.
 
@@ -64,3 +74,4 @@ Agora iremos criar os dois aruivos de códigos fonte do nosso projeto dentro da 
 
 Deve ficar assim:  
 ![explorador de  arquivos do projeto com a pasta src e os arquivos imc.js e imc.tes.js](/imgs/explorer-pasta-src-arquivos-imc.js-imc.tes.jpg)
+
