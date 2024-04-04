@@ -52,3 +52,12 @@ O arquivo deverá ficar assim:
         }
 
 ## 5º Passo - Criar os arquivos imc.js e imc.test.js
+Para uma melhor organização do projeto vamos criar primeiro uma pasta `src` (fonte) e por os arquivos de códigos fonte dentro dessa pasta
+
+Agora iremos criar os dois aruivos de códigos fonte do nosso projeto dentro da pasta `src`.  
+
+    O arquivo do programa IMC: `imc.js`  
+    E o arquivo de teste: `imc.test.js`
+
+Deve ficar assim:  
+![explorador de  arquivos do projeto com a pasta src e os arquivos imc.js e imc.tes.js](/imgs/explorer-pasta-src-arquivos-imc.js-imc.tes.js.jpg)
