@@ -77,3 +77,8 @@ Agora iremos criar os dois aruivos de códigos fonte do nosso projeto dentro da 
 Deve ficar assim:  
 ![explorador de  arquivos do projeto com a pasta src e os arquivos imc.js e imc.tes.js](/imgs/explorer-pasta-src-arquivos-imc.js-imc.tes.jpg)
 
+## 6º Passo - Agora vamos começar a prática TDD
+### 1º - Vamos começar escrevendo um teste e ver ele falhar
+Abra o aquivo `imc.test.js` e digite o código abaixo, depois execute o teste no terminal (`ctrl + '`) - `npm test`  
+Esse teste deve falhar e você deve ver e identificar o erro  
+![primeiro bloco de código - teste que falha](/imgs/imc-test-primeiro-bloco.jpg)
