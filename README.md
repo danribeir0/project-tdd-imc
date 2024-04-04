@@ -95,12 +95,24 @@ Esse teste deve falhar e você deve ver e identificar o erro: `ReferenceError: i
 ### 2º bloco de código - vamos resolver o erro 'imc is not defined'
 Ainda no arquivo `imc.test.js` altere o código para ele ficar desse jeito:
 
-![SEGUNDO bloco de código - teste que falha](/imgs/bloco-code-2.jpg)
+![segundo bloco de código - teste que falha](/imgs/bloco-code-2.jpg)
 
-Depois execute o teste no terminal (`ctrl + '`) - `npm test`  
-Esse teste deve falhar e você deve ver e identificar o erro:  
+Depois execute o teste no terminal (`ctrl + '`) - `npm test`
+
+Esse teste deve falhar e você deve ver e identificar o erro:
 
         Expected constructor: Function
         Received constructor: Object
 
 ![falha2-expected-Function-receveid-Object](/imgs/falha2-expected-Function-receveid-Object.jpg)
+
+### 3º bloco de código - agora vamos fazer o teste passar (PASS)
+Abra o arquivo `imc.js` e digite o código abaixo:
+
+![terceiro bloco de código - teste que passa](/imgs/bloco-code-3.jpg)
+
+Depois execute o teste no terminal (`ctrl + '`) - `npm test`
+
+Esse teste deve passar.
+
+![test3-pass](/imgs/test3-pass.jpg)
