@@ -26,8 +26,29 @@ Se você ainda não tem esses programas instalados, baixe e instale.
 
 - A instalação terá sido BEM SUCEDIDA quando for adicionado a pasta e os arquivos:  
 
-Pasta: `node_modules`
+    Pasta: `node_modules`
 
-Arquivos: `package-lock.json` e `package.json`
+    Arquivos: `package-lock.json` e `package.json`
 
 ![Pasta: 'node_modules' - Arquivos: 'package-lock.json' e 'package.json'](/imgs/apos-instalacao-jest.jpg)
+
+## 4º Passo - Adicione o Script JEST para testes no arquivo package.json
+- Abra o arquivo `package.json` e acrescente o código abaixo entre as últimas 2 chaves de fechamento -` } `-
+
+        ,
+        "scripts": {
+        "test": "jest"
+        }
+
+O arquivo deverá ficar assim:
+
+        {
+        "devDependencies": {
+            "jest": "^29.7.0"
+        },
+        "scripts": {
+            "test": "jest"
+        }
+        }
+
+## 5º Passo - Criar os arquivos imc.js e imc.test.js
