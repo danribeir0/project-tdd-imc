@@ -116,3 +116,68 @@ Depois execute o teste no terminal (`ctrl + '`) - `npm test`
 Esse teste deve passar.
 
 ![test3-pass](/imgs/11-test3-pass.jpg)
+
+### 4º testando um valor fictício
+Adicione outro `test` no arquivo `imc.test.js`
+
+![](/imgs/12-bloco-code-4.jpg)
+
+Depois execute o teste no terminal (`ctrl + '`) - `npm test`
+
+Esse teste deve falhar e você deve ver e identificar o erro:
+
+![](/imgs/13-falha2-expected-50-receveid-undefined.jpg)
+
+### 5º criando a função imc
+Altere o arquivo `imc.js` para ficar assim:
+
+![](/imgs/14-bloco-code-5.jpg)
+
+Depois execute o teste no terminal (`ctrl + '`) - `npm test`
+
+Esse teste deve passar.
+
+![](/imgs/15-test-pass.jpg)
+
+### 6º testando um valor real
+Pegue a calculadora e calcule o seu IMC.  
+Agora que você já sabe o seu IMC, passe o seu peso, a sua altura e o seu IMC para o teste (os valores na imagem são meus)
+
+![](/imgs/16-bloco-code-6.jpg)
+
+Depois execute o teste no terminal (`ctrl + '`) - `npm test`
+
+Esse teste deve falhar e você deve ver e identificar o erro:
+
+![](/imgs/17-falha-expected-23.67-receveid-50.jpg)
+
+### 7º testando um valor real
+Altere o arquivo `imc.js` para ficar assim:
+
+![](/imgs/18-bloco-code-7.jpg)
+
+Depois execute o teste no terminal (`ctrl + '`) - `npm test`
+
+Esse teste deve falhar e você deve ver e identificar o erro:
+
+![](/imgs/19-falha-expected-23.67-receveid-23.67125.jpg)
+
+### 8º testando um valor real
+Altere o arquivo `imc.js` para ficar assim:
+
+![](/imgs/20-bloco-code-8.jpg)
+
+Depois execute o teste no terminal (`ctrl + '`) - `npm test`
+
+Esse teste deve falhar e você deve ver e identificar o erro:
+
+![](/imgs/21-falha-expected-23.67-receveid-string-23.67125.jpg)
+
+### 9º testando um valor real
+Altere o arquivo `imc.js` para ficar assim:
+
+![](/imgs/22-bloco-code-9.jpg)
+
+Depois execute o teste no terminal (`ctrl + '`) - `npm test`
+
+Esse teste deve passar.
