@@ -16,6 +16,8 @@ Nesse tutorial vou ensina como criar um novo projeto do zero e realizar o desenv
 
 Na técnica do TDD devemos primeiro escrever um teste que falha, ver o teste falhar, escrever o mínimo de código possível para fazer o teste passar e, por fim, refatorar o código da melhor forma que conseguirmos para solucionar o problema.
 
+![TDD - Imgem que ilustra as fases do test driven development - escrever um teste que falha, ver o teste falhar, escrever o mínimo de código possível para fazer o teste passar e, por fim, refatorar o código da melhor forma que conseguirmos para solucionar o problema](/imgs/tdd.jpg)
+
 Vamos realizar a prática do TDD para o desenvolvimento de um programa que calcula o Índice de Massa Corporal (IMC) de uma pessoa.
 
 ## 1º Passo - Crie uma nova pasta para o projeto.
