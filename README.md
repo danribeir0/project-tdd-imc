@@ -20,6 +20,13 @@ Se você ainda não tem esses programas instalados, baixe e instale.
 ![abrir pasta com VSCode](/imgs/abrir-com-code.jpg)
 
 ## 3º Passo - Instale o módulo do 'JEST' no projeto
-- Para utilizar o [Framework de Testes `JEST`](https://jestjs.io/pt-BR/), abra o terminal - `Ctrl + '` - e execute o comando:  
+- Para utilizar o [Framework de Testes `JEST`](https://jestjs.io/pt-BR/), abra o terminal - `Ctrl + '` - e execute o comando:
 
         npm i --save-dev jest
+
+- A instalação terá sido BEM SUCEDIDA quando for adicionado a pasta e os arquivos:  
+Pasta:  
+    `node_modules`  
+Arquivos:
+    `package-lock.json` e `package.json`
+![Pasta: 'node_modules' - Arquivos: 'package-lock.json' e 'package.json'](/imgs/apos-instalacao-jest.jpg)
