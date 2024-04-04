@@ -15,8 +15,10 @@ Se você ainda não tem esses programas instalados, baixe e instale.
 
     `projeto-tdd-imc`
 
-## 2º Passo - Abra a pasta do projeto tdd imc no VSCode
+## 2º Passo - Abra a pasta do Projeto TDD IMC no VSCode
 - Abra a pasta do projeto tdd imc no VSCode  
 ![abrir pasta com VSCode](/imgs/abrir-com-code.jpg)
 
 ## 3º Passo - Instale o módulo do 'JEST' no projeto
+- Para utilizar o Framework de Testes `JEST`, abra o terminal - `Ctrl + '` - e execute o comando:  
+        npm i --save-dev jest
