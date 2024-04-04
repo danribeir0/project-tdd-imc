@@ -60,4 +60,4 @@ Agora iremos criar os dois aruivos de códigos fonte do nosso projeto dentro da 
     E o arquivo de teste: `imc.test.js`
 
 Deve ficar assim:  
-![explorador de  arquivos do projeto com a pasta src e os arquivos imc.js e imc.tes.js](/imgs/explorer-pasta-src-arquivos-imc.js-imc.tes.js.jpg)
+![explorador de  arquivos do projeto com a pasta src e os arquivos imc.js e imc.tes.js](/imgs/explorer-pasta-src-arquivos-imc.js-imc.tes.jpg)
