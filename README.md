@@ -5,6 +5,9 @@ Um exemplo com o cálculo do IMC (índice de massa corporal).
 Para essa prática usarei o [VSCode](https://code.visualstudio.com/download) e o [Node.js](https://nodejs.org/en/download/current)  
 Se você ainda não tem esses programas instalados, baixe e instale.
 
+>Eu estou usando os ícones da extensão [´VSCode Great Icons´](https://marketplace.visualstudio.com/items?itemName=emmanuelbeziat.vscode-great-icons)  
+Se você quiser os ícones iguais basta adicionar essa extensão no seu VSCode
+
 ## 1º Passo - Crie uma nova pasta para o projeto.
 - Crie uma nova pasta para o projeto.
 
