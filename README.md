@@ -2,7 +2,7 @@
 Projeto utilizando a técnica TDD (desenvolvimento orientado a testes).  
 Um exemplo com o cálculo do IMC (índice de massa corporal).  
 
-Para essa prática usarei o [VSCode](https://vscode.download.prss.microsoft.com) e o [Node.js](https://nodejs.org/dist/v21.7.2/node-v21.7.2-x64.msi)  
+Para essa prática usarei o [VSCode](https://code.visualstudio.com/download) e o [Node.js](https://nodejs.org/en/download/current)  
 Se você ainda não tem esses programas instalados, baixe e instale.
 
 ## 1º Passo - Crie uma nova pasta para o projeto.
