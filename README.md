@@ -79,6 +79,11 @@ Deve ficar assim:
 
 ## 6º Passo - Agora vamos começar a prática TDD
 ### 1º - Vamos começar escrevendo um teste e ver ele falhar
-Abra o aquivo `imc.test.js` e digite o código abaixo, depois execute o teste no terminal (`ctrl + '`) - `npm test`  
+Abra o aquivo `imc.test.js` e digite o código abaixo  
+![primeiro bloco de código - teste que falha](/imgs/bloco-code-1.jpg)
+
+Depois execute o teste no terminal (`ctrl + '`) - `npm test`  
+![test1-falha](/imgs/test1-falha.jpg)
 Esse teste deve falhar e você deve ver e identificar o erro  
-![primeiro bloco de código - teste que falha](/imgs/imc-test-primeiro-bloco.jpg)
+    `ReferenceError: imc is not defined`
+![falha1-imc-is-not-defined](/imgs/falha1-imc-is-not-defined.jpg)
