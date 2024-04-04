@@ -78,8 +78,10 @@ Deve ficar assim:
 ![explorador de  arquivos do projeto com a pasta src e os arquivos imc.js e imc.tes.js](/imgs/explorer-pasta-src-arquivos-imc.js-imc.tes.jpg)
 
 ## 6º Passo - Agora vamos começar a prática TDD
-### 1º - Vamos começar escrevendo um teste e ver ele falhar
+### 1º bloco de código - Vamos começar escrevendo um teste e ver ele falhar
 Abra o aquivo `imc.test.js` e digite o código abaixo  
+PRESTE MUITA ATENÇÃO NAS LETRAS MAIÚSCULAS E MÍNUSCULAS
+
 ![primeiro bloco de código - teste que falha](/imgs/bloco-code-1.jpg)
 
 Depois execute o teste no terminal (`ctrl + '`) - `npm test`
@@ -89,3 +91,16 @@ Depois execute o teste no terminal (`ctrl + '`) - `npm test`
 Esse teste deve falhar e você deve ver e identificar o erro: `ReferenceError: imc is not defined`
 
 ![falha1-imc-is-not-defined](/imgs/falha1-imc-is-not-defined.jpg)
+
+### 2º bloco de código - vamos resolver o erro 'imc is not defined'
+Ainda no arquivo `imc.test.js` altere o código para ele ficar desse jeito:
+
+![SEGUNDO bloco de código - teste que falha](/imgs/bloco-code-2.jpg)
+
+Depois execute o teste no terminal (`ctrl + '`) - `npm test`
+Esse teste deve falhar e você deve ver e identificar o erro:  
+
+        Expected constructor: Function
+        Received constructor: Object
+
+![falha2-expected-Function-receveid-Object](/imgs/falha2-expected-Function-receveid-Object.jpg)
