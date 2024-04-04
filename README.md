@@ -25,8 +25,9 @@ Se você ainda não tem esses programas instalados, baixe e instale.
         npm i --save-dev jest
 
 - A instalação terá sido BEM SUCEDIDA quando for adicionado a pasta e os arquivos:  
-Pasta:  
-    `node_modules`  
-Arquivos:
-    `package-lock.json` e `package.json`
+
+Pasta: `node_modules`
+
+Arquivos: `package-lock.json` e `package.json`
+
 ![Pasta: 'node_modules' - Arquivos: 'package-lock.json' e 'package.json'](/imgs/apos-instalacao-jest.jpg)
