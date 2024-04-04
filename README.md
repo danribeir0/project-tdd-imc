@@ -1,5 +1,6 @@
-# Project TDD
-Projeto utilizando a técnica TDD (desenvolvimento orientado a testes) - um exemplo com o cálculo do IMC (índice de massa corporal)
+# Projeto TDD
+Projeto utilizando a técnica TDD (desenvolvimento orientado a testes).  
+Um exemplo com o cálculo do IMC (índice de massa corporal)
 
 ## 1º Passo
 - Crie uma nova pasta para o projeto
