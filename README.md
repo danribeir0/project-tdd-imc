@@ -86,7 +86,6 @@ Depois execute o teste no terminal (`ctrl + '`) - `npm test`
 
 ![test1-falha](/imgs/test1-falha.jpg)
 
-Esse teste deve falhar e você deve ver e identificar o erro  
-    `ReferenceError: imc is not defined`
+Esse teste deve falhar e você deve ver e identificar o erro: `ReferenceError: imc is not defined`
 
 ![falha1-imc-is-not-defined](/imgs/falha1-imc-is-not-defined.jpg)
