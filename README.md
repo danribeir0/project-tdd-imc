@@ -97,7 +97,7 @@ Ainda no arquivo `imc.test.js` altere o código para ele ficar desse jeito:
 
 ![SEGUNDO bloco de código - teste que falha](/imgs/bloco-code-2.jpg)
 
-Depois execute o teste no terminal (`ctrl + '`) - `npm test`
+Depois execute o teste no terminal (`ctrl + '`) - `npm test`  
 Esse teste deve falhar e você deve ver e identificar o erro:  
 
         Expected constructor: Function
