@@ -43,12 +43,12 @@ Se você ainda não tem esses programas instalados, baixe e instale.
 O arquivo deverá ficar assim:
 
         {
-        "devDependencies": {
-            "jest": "^29.7.0"
-        },
-        "scripts": {
-            "test": "jest"
-        }
+            "devDependencies": {
+                "jest": "^29.7.0"
+            },
+            "scripts": {
+                "test": "jest"
+            }
         }
 
 ## 5º Passo - Criar os arquivos imc.js e imc.test.js
