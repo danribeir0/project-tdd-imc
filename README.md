@@ -1,6 +1,9 @@
 # Projeto TDD
 Projeto utilizando a técnica TDD (desenvolvimento orientado a testes).  
-Um exemplo com o cálculo do IMC (índice de massa corporal)
+Um exemplo com o cálculo do IMC (índice de massa corporal).  
+
+Para essa prática usarei o [VSCode](https://vscode.download.prss.microsoft.com) e o [Node.js](https://nodejs.org/dist/v21.7.2/node-v21.7.2-x64.msi)  
+Se você ainda não tem esses programas instalados, baixe e instale.
 
 ## 1º Passo - Crie uma nova pasta para o projeto.
 - Crie uma nova pasta para o projeto.
@@ -15,3 +18,5 @@ Um exemplo com o cálculo do IMC (índice de massa corporal)
 ## 2º Passo - Abra a pasta do projeto tdd imc no VSCode
 - Abra a pasta do projeto tdd imc no VSCode  
 ![abrir pasta com VSCode](/imgs/abrir-com-code.jpg)
+
+## 3º Passo - Instale o módulo do 'JEST' no projeto
