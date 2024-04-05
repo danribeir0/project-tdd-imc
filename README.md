@@ -187,6 +187,8 @@ Esse teste deve passar.
 Com isso finalizamos a primeira parte dos testes e a funcionalidade principal do programa Calcular o IMC.
 ---
 
+
+
 ## 7º Passo - Testando novos cenários
 
 Agora que o nosso programa já faz o que ele deve fazer, vamos pensar cenários possíveis que poderiam gerar `BUGs` no nosso programa e tratar esses `BUGs` para mostrar uma mensagem 'amigável' para o usuário.
@@ -201,7 +203,7 @@ E se em vez de passar números o usuário passar letras ou quais quer outros car
         imc('batata', 'jacaré')
         imc('setenta e cinco quilos', 'um metro e setenta e oito')
 
-E se o usuário passar o valor `0 [zero]` (zero é um número)?  
+E se o usuário passar o valor `0 [zero]`? (zero é um número [óbivo rs])  
 Na matemática é impossível dividir 0 por alguma coisa.  
 E também é outro erro matemático tentar dividir alguma coisa por 0.
 
@@ -213,7 +215,7 @@ E se o usuário passar alguma valor negativo?
         imc(-1, -2)
 
 E se o usuário passar valores muito altos?  
-A pessoa mais pesada que você já conheceu tinha qual peso? (ou qual peso você que uma pessoa pode chegar?)  
+A pessoa mais pesada que você já conheceu tinha qual peso? (ou qual peso você acha que uma pessoa pode chegar?)  
 E a pessoa mais alta?  
 
         imc(201, 3.0)
@@ -222,3 +224,10 @@ Tente criar esses casos de testes e veja como o programa se comporta.
 O teste passa? O teste falha? Qual o erro que ele acusou?  
 
 ![Novos cenários de teste](/imgs/24-novos-cenarios-de-teste.jpg)
+
+### Resolvendo os novos cenários de teste
+Espero que você tenha tentado (e conseguido) resolver os erros ao realizar os testes desses novos cenários
+
+Aqui está uma possível solução:
+
+![Código imc.js para novos cenários de teste](/imgs/31-codigo-imc-para-novos-cenarios-de-teste.jpg)
