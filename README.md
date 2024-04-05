@@ -35,7 +35,7 @@ Vamos realizar a prática do TDD para o desenvolvimento de um programa que calcu
 ![abrir pasta com VSCode](/imgs/02-abrir-com-code.jpg)
 
 ## 3º Passo - Instale o módulo do 'JEST' no projeto
-- Para utilizar o [Framework de Testes](https://jestjs.io/pt-BR/) `JEST` no nosso projeto abra o terminal (`Ctrl + '`) e execute o comando:
+- Para utilizar o [Framework de Testes](https://jestjs.io/pt-BR/) `JEST` no nosso projeto abra o terminal `Ctrl + '` e execute o comando:
 
         npm i --save-dev jest
 
@@ -69,10 +69,9 @@ O arquivo deverá ficar assim:
 ## 5º Passo - Criar os arquivos imc.js e imc.test.js
 Para uma melhor organização do projeto vamos criar primeiro uma pasta `src` (fonte) e por os arquivos de códigos fonte dentro dessa pasta
 
-Agora iremos criar os dois aruivos de códigos fonte do nosso projeto dentro da pasta `src`.  
-
-    O arquivo do programa IMC: `imc.js`  
-    E o arquivo de teste: `imc.test.js`
+Agora iremos criar os dois arquivos de códigos fonte do nosso projeto dentro da pasta `src`.  
+- O arquivo do programa IMC: `imc.js`  
+- E o arquivo de teste: `imc.test.js`
 
 Deve ficar assim:  
 ![explorador de  arquivos do projeto com a pasta src e os arquivos imc.js e imc.tes.js](/imgs/04-explorer-pasta-src-arquivos-imc.js-imc.tes.jpg)
@@ -84,7 +83,7 @@ PRESTE MUITA ATENÇÃO NAS LETRAS MAIÚSCULAS E MÍNUSCULAS
 
 ![primeiro bloco de código - teste que falha](/imgs/05-bloco-code-1.jpg)
 
-Depois execute o teste no terminal (`ctrl + '`) - `npm test`
+Depois execute o teste no terminal ` ctrl + ' `  -  `npm test`
 
 ![test1-falha](/imgs/06-test1-falha.jpg)
 
@@ -92,12 +91,12 @@ Esse teste deve falhar e você deve ver e identificar o erro: `ReferenceError: i
 
 ![falha1-imc-is-not-defined](/imgs/07-falha1-imc-is-not-defined.jpg)
 
-### 2º bloco de código - vamos resolver o erro 'imc is not defined'
+### 2º bloco de código - vamos resolver o erro `imc is not defined`
 Ainda no arquivo `imc.test.js` altere o código para ele ficar desse jeito:
 
 ![segundo bloco de código - teste que falha](/imgs/08-bloco-code-2.jpg)
 
-Depois execute o teste no terminal (`ctrl + '`) - `npm test`
+Depois execute o teste no terminal `ctrl + '` - `npm test`
 
 Esse teste deve falhar e você deve ver e identificar o erro:
 
@@ -106,12 +105,12 @@ Esse teste deve falhar e você deve ver e identificar o erro:
 
 ![falha2-expected-Function-receveid-Object](/imgs/09-falha2-expected-Function-receveid-Object.jpg)
 
-### 3º bloco de código - agora vamos fazer o teste passar (PASS)
+### 3º bloco de código - agora vamos criar a função imc e fazer o teste passar (PASS)
 Abra o arquivo `imc.js` e digite o código abaixo:
 
 ![terceiro bloco de código - teste que passa](/imgs/10-bloco-code-3.jpg)
 
-Depois execute o teste no terminal (`ctrl + '`) - `npm test`
+Depois execute o teste no terminal `ctrl + '` - `npm test`
 
 Esse teste deve passar.
 
@@ -122,18 +121,18 @@ Adicione outro `test` no arquivo `imc.test.js`
 
 ![](/imgs/12-bloco-code-4.jpg)
 
-Depois execute o teste no terminal (`ctrl + '`) - `npm test`
+Depois execute o teste no terminal `ctrl + '` - `npm test`
 
 Esse teste deve falhar e você deve ver e identificar o erro:
 
 ![](/imgs/13-falha2-expected-50-receveid-undefined.jpg)
 
-### 5º criando a função imc
+### 5º fazer a função retornar 50 sempre
 Altere o arquivo `imc.js` para ficar assim:
 
 ![](/imgs/14-bloco-code-5.jpg)
 
-Depois execute o teste no terminal (`ctrl + '`) - `npm test`
+Depois execute o teste no terminal `ctrl + '` - `npm test`
 
 Esse teste deve passar.
 
@@ -141,11 +140,14 @@ Esse teste deve passar.
 
 ### 6º testando um valor real
 Pegue a calculadora e calcule o seu IMC.  
-Agora que você já sabe o seu IMC, passe o seu peso, a sua altura e o seu IMC para o teste (os valores na imagem são meus)
+
+>IMC = PESO / ALTURA ^ 2
+
+Agora que você já sabe o seu IMC, passe o seu peso, a sua altura e o seu IMC para o teste
 
 ![](/imgs/16-bloco-code-6.jpg)
 
-Depois execute o teste no terminal (`ctrl + '`) - `npm test`
+Depois execute o teste no terminal `ctrl + '` - `npm test`
 
 Esse teste deve falhar e você deve ver e identificar o erro:
 
@@ -156,7 +158,7 @@ Altere o arquivo `imc.js` para ficar assim:
 
 ![](/imgs/18-bloco-code-7.jpg)
 
-Depois execute o teste no terminal (`ctrl + '`) - `npm test`
+Depois execute o teste no terminal `ctrl + '` - `npm test`
 
 Esse teste deve falhar e você deve ver e identificar o erro:
 
@@ -167,7 +169,7 @@ Altere o arquivo `imc.js` para ficar assim:
 
 ![](/imgs/20-bloco-code-8.jpg)
 
-Depois execute o teste no terminal (`ctrl + '`) - `npm test`
+Depois execute o teste no terminal `ctrl + '` - `npm test`
 
 Esse teste deve falhar e você deve ver e identificar o erro:
 
@@ -178,7 +180,7 @@ Altere o arquivo `imc.js` para ficar assim:
 
 ![](/imgs/22-bloco-code-9.jpg)
 
-Depois execute o teste no terminal (`ctrl + '`) - `npm test`
+Depois execute o teste no terminal `ctrl + '` - `npm test`
 
 Esse teste deve passar.
 
