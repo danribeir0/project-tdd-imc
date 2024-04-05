@@ -231,3 +231,8 @@ Espero que você tenha tentado (e conseguido) resolver os erros ao realizar os t
 Aqui está uma possível solução:
 
 ![Código imc.js para novos cenários de teste](/imgs/31-codigo-imc-para-novos-cenarios-de-teste.jpg)
+
+## 8º Passo - Nova função que informa a classificação do IMC
+Uma próxima funcionalidade para o nosso programa é classificar o IMC do usuário:
+
+![Tabela de classificação do IMC](https://www.drrogermoura.com.br/images/artigos/tabela-imc.png)
