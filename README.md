@@ -12,7 +12,7 @@ Se você quiser os ícones iguais basta adicionar essa extensão no seu VSCode.
 A técnica/prática do TDD foi introduzida pela metodologia ágil XP - eXtreme Programming.  
 Essa técnica prega que os testes devem ser escritos antes da codificação propriamente dita.
 
-Nesse tutorial vou ensina como criar um novo projeto do zero e realizar o desenvolvimento de um programa (IMC) com a técnica do TDD, escrevendo os testes antes de criar o código do programa.
+Nesse tutorial vou ensinar como criar um novo projeto do zero e realizar o desenvolvimento de um programa (IMC) com a técnica do TDD, escrevendo os testes antes de criar o código do programa.
 
 Na técnica do TDD devemos primeiro escrever um teste que falha, ver o teste falhar, escrever o mínimo de código possível para fazer o teste passar e, por fim, refatorar o código da melhor forma que conseguirmos para solucionar o problema.
 
@@ -200,14 +200,13 @@ Por exemplo, se o usuário não preenche-se os campos de peso e altura e tentass
 
         imc()
 
-E se em vez de passar números o usuário passar letras ou quais quer outros caracteres `Não Número - [NaN - Not a Number]`?
+E se em vez de passar números o usuário passar letras ou quaisquer outros caracteres `Não Número - [NaN - Not a Number]`?
 
         imc('batata', 'jacaré')
         imc('setenta e cinco quilos', 'um metro e setenta e oito')
 
 E se o usuário passar o valor `0 [zero]`? (zero é um número [óbivo rs])  
-Na matemática é impossível dividir 0 por alguma coisa.  
-E também é outro erro matemático tentar dividir alguma coisa por 0.
+Não é possível dividir nada por zero.
 
         imc(0, 0)
 
@@ -217,7 +216,8 @@ E se o usuário passar alguma valor negativo?
         imc(-1, -2)
 
 E se o usuário passar valores muito altos?  
-A pessoa mais pesada que você já conheceu tinha qual peso? (ou qual peso você acha que uma pessoa pode chegar?)  
+A pessoa mais pesada que você já conheceu tinha qual peso?  
+(ou qual peso você acha que uma pessoa pode chegar?)  
 E a pessoa mais alta?  
 
         imc(201, 3.0)
