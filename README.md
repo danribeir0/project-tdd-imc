@@ -200,7 +200,7 @@ Por exemplo, se o usuário não preenche-se os campos de peso e altura e tentass
 
         imc()
 
-E se em vez de passar números o usuário passar letras ou quaisquer outros caracteres `Não Número - [NaN - Not a Number]`?
+E se em vez de passar números o usuário passar letras ou quaisquer outros caracteres `Não é um Número - [NaN - Not a Number]`?
 
         imc('batata', 'jacaré')
         imc('setenta e cinco quilos', 'um metro e setenta e oito')
