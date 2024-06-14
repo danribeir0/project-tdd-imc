@@ -237,4 +237,6 @@ Aqui está uma possível solução:
 ## 8º Passo - Nova função que informa a classificação do IMC
 Uma próxima funcionalidade para o nosso programa é classificar o IMC do usuário:
 
-![Tabela de classificação do IMC](https://www.drrogermoura.com.br/images/artigos/tabela-imc.png)
+![Tabela de classificação do IMC](https://images.squarespace-cdn.com/content/v1/54884604e4b08e455df8d6ff/1454940813608-KCDELGPNXIA95OL57DYU/Classifica%C3%A7%C3%A3o+do+IMC+para+adultos?format=2500w)
+
+> Eutrofia - peso normal para a altura, valor na faixa esperada para adultos.
